@@ -1,26 +1,39 @@
-import { useState } from "react";
-import "./App.css";
-
-function App() {
-
-  // TODO 1:
-  // Create a state variable named isLoggedIn.
-  // Initial value should be false.
-
-
-  // TODO 2:
-  // Use a ternary operator to display:
-  //
-  // If logged in:
-  //     Welcome Student
-  //
-  // Otherwise:
-  //     Login button
-  //
-  // The Login button should use onClick
-  // to change the login state.
-
-
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
 }
 
-export default App;
+.container {
+  text-align: center;
+  margin-top: 200px;
+}
+
+input {
+  padding: 10px;
+  width: 220px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 5px;
+  border: none;
+  border-radius:5px;
+  background-color: #0230ff;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c6fa0c;
+}
+
+h1 {
+  color: #ff0101;
+}
+div{text-align: center;
+  margin-top: 15%;
+
+}
